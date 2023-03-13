@@ -1,1 +1,16 @@
+body {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	grid-gap: .5em;
+	padding: 1rem;
+}
 
+header, footer {
+	grid-column: 1 / -1;
+}
+
+ul {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
