@@ -4,86 +4,85 @@ body {
   margin: 0 auto;
   background-color: #fff;
   border: 2px #f1627e solid;
-	text-decoration: none;
+  text-decoration: none;
 }
 
 main {
-	display: block;
-	width: 40em;
-	margin: 0 auto;
-	padding: 2em;
-	border: 2px solid #6a7db7;
-	background: #fff;
-	color: #f1627e;
+  display: block;width: 40em;
+  margin: 0 auto;
+  padding: 2em;
+  border: 2px solid #6a7db7;
+  background: #fff;
+  color: #f1627e;
 }
 
 h1 {
-	border: 1px #223b76 solid;
+  border: 1px #223b76 solid;
   text-align: center;
-	font-size: x-large;
-	background-color: #6a7db7;
+  font-size: x-large;
+  background-color: #6a7db7;
   color: #fff;
 }
 
 h2 {
   margin-top: 0;
-	border: 1px #ba2f4d solid;
+  border: 1px #ba2f4d solid;
   text-align: center;
-	background-color: #ba2f4d;
+  background-color: #ba2f4d;
   color: #fff;
 }
 
 .profilepic {
-	display: block;
+  display: block;
   margin: auto;
   width: 31.75%;
 }
 
 nav {
-	background-color: #ba2f4d;
-	padding: 1px;
+  background-color: #ba2f4d;
+  padding: 1px;
 }
 
 nav ul {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	list-style-type: none;
-	text-decoration: underline overline;
-	font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style-type: none;
+  text-decoration: underline overline;
+  font-weight: bold;
 }
 
 button {
-	border: none;
-	background-color: #ba2f4d;
-	color: #fff;
+  border: none;
+  background-color: #ba2f4d;
+  color: #fff;
 }
 
 button a:link {
-	background-color: #ba2f4d;
-	color: #fff;
+  background-color: #ba2f4d;
+  color: #fff;
 }
 
 button a:visited {
-	background-color: #ba2f4d;
-	color: #fff;
+  background-color: #ba2f4d;
+  color: #fff;
 }
 
 button a:hover {
-	background-color: #ba2f4d;
-	color: #fff;
+  background-color: #ba2f4d;
+  color: #fff;
 }
 
 button a:active {
-	background-color: #ba2f4d;
-	color: #fff;
+  background-color: #ba2f4d;
+  color: #fff;
 }
 
 footer {
-	display: flex;
-	justify-content: space-evenly;
-	padding: 2em;
-	text-align: center;
-	background-color: #ba2f4d;
-	color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2em;
+  text-align: center;
+  background-color: #ba2f4d;
+  color: #fff;
 }
