@@ -1,1 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Chariya's Portfolio | Homepage</title>
+    <meta name="description" content="Web Development Portfolio Homepage">
+    <meta name="author" content="Chariya Thach">
+
+    <!-- link to external CSS file -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header><h1>Chariya Thach | Portfolio</h1>
+    
+    </header>
+    <div class="profilepic">
+        <img src="images/profile_pic.jpg" alt="Profile Picture Illustration" width="250" height="250">
+    </div>
+
+    <h2>Hello! My name is Chariya and welcome to my site.</h2>
+    
+    <main>        
+        <p>I'm currently in the process of transferring all my projects onto this webpage.</p>
+        
+        <p>In the meantime you can checkout some of my projects below.</p>
+        
+        <p>
+            My courses emphasized functionality over style and aesthetics.  You'll see that most of my designs are bare.
+            Before I transfer all of my projects, my goal is to apply my HTML, CSS and JavaScript knowledge to add visual 
+            appeal and accessibility to all my projects.
+        </p>
+    </main>
+
+    <h2>Courses I've taken</h2>
+
+    <section class="courses">
+        <ul>
+            <li>C SCI 102: Intro to Web Development</li>
+            <li>C SCI 112: Animation</li>
+            <li>C SCI 131: Introduction to Python</li>
+            <li>C SCI 201: WordPress & eCommerce</li>
+            <li>C SCI 202: Web Development II</li>
+            <li>C SCI 212: Web Development with JavaScript</li>
+            <li>C SCI 231: Data Science with Python</li>
+            <li>CIS 218: Database Concepts</li>
+            <li>C SCI 116: Web/Database Programming I</li>
+            <li>C SCI 215: Web/Database Programming II</li>
+        </ul>
+    </section>
+
+    <h2>Featured Projects by Courses</h2>
+
+    <h3>C SCI 116: Web/Database Programming I</h3>
+    <section>
+        <button>
+            <a href='http:chelan.highline.edu/~chariya/courses/csci116/autoloancalc/' target='_blank'>Auto Loan Calculator</a>
+        </button>
+        <p><strong>Form that allows users to enter in loan details such as principal amount, term (months), and interest rate.</strong></p>
+    </section>
+
+    <h3>C SCI 215: Web/Database Programming II</h3>
+    <section>
+        <button>
+            <a href='https://chelan.highline.edu/~chariya/courses/csci215/book_form/index.php' target='_blank'>Book Form</a>
+        </button>
+        <p><strong>Form that allows users to enter a book title, description, price, and book genre.</strong></p>
+        <p><strong>Assignment requirements:</strong> All fields must be entered, price must be a positive number,
+            form should be sticky (retain any values previously entered by the user), and post to itself.
+            When all data is valid, summary is displayed. If data is not valid an error message is displayed.</p>
+        
+        <button><a href='https://chelan.highline.edu/~chariya/courses/csci215/data_form/controller.php' target='_blank'>Product Data Form and 
+            phpMyAdmin Database.</a>
+        </button>
+        <p>
+            <strong>Assignment demonstrates PHP Data Object (PDO) & Model, View, Controller (MVC) Design.</strong> 
+            This website uses a form to collect clothing data, stores that data into a phpMyAdmin database, and 
+            retrieves the data to display on a separate page.
+        </p>
+        <p>
+            <strong>Assignment requirements:</strong> Create a webpage that allows users to enter product data 
+            including images into a form, program the image to resize. An image for upload is required. Create a
+            second webpage that displays the contents of the data table. All info are retrieved from the database.
+        </p>
+
+
+        <button>
+            <a href='https://chelan.highline.edu/~chariya/courses/csci215/comp_sci_club/index.php' target='_blank'>Final Project: Computer Science Club Website</a>
+        </button>
+        <p>
+            <strong>Computer science club website that stores and retrieves specific information and images from
+            a database.</strong>
+        </p>
+    </section>
+    <footer>
+        <p>&copy; Chariya Thach <script>document.write(new Date().getFullYear())</script></p>
+        <p>All Rights Reserved</p>
+    </footer>
+    
+    
+    <!-- link to external JS file -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
