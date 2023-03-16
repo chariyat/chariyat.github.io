@@ -1,33 +1,47 @@
 body {
-   font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
-   width: 50em;
-   margin: 0 auto;
-   background-color: #c3c3c1;
-   border: 2px #151e3d solid;
+  font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
+  width: 50em;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 2px #f1627e solid;
+	text-decoration: none;
 }
 
 main {
-	color: #151e3d;
-  display: block;
-  width: 40em;
+	display: block;
+	width: 40em;
 	margin: 0 auto;
 	padding: 2em;
-	background: #fafafa;
-	border: 2px solid #5b7a99;
+	border: 2px solid #6a7db7;
+	background: #fff;
+	color: #f1627e;
 }
 
-header, footer {
-	padding: 2em;
-	text-align: center;
-	background-color: #151e3d;
-	color: #fafafa;
-	display: flex;
-	justify-content: space-evenly;
+h1 {
+	border: 1px #223b76 solid;
+  text-align: center;
+	font-size: x-large;
+	background-color: #6a7db7;
+  color: #fff;
+}
+
+h2 {
+  margin-top: 0;
+	border: 1px #ba2f4d solid;
+  text-align: center;
+	background-color: #ba2f4d;
+  color: #fff;
+}
+
+.profilepic {
+	display: block;
+  margin: auto;
+  width: 31.75%;
 }
 
 nav {
-	background-color: #c3c3c1;
-	padding: 1em;
+	background-color: #ba2f4d;
+	padding: 1px;
 }
 
 nav ul {
@@ -39,37 +53,37 @@ nav ul {
 	font-weight: bold;
 }
 
-nav a:link {
-	color: #fbffff;
+button {
+	border: none;
+	background-color: #ba2f4d;
+	color: #fff;
 }
 
-nav a:visited {
-	color: #151e3d;
+button a:link {
+	background-color: #ba2f4d;
+	color: #fff;
 }
 
-nav a:hover {
-	background-color: #fbffff;
-	color: #151e3d;
+button a:visited {
+	background-color: #ba2f4d;
+	color: #fff;
 }
 
-h1 {
-  margin-top: 0;
-  background-color: #151e3d;
-  color: #fafafa;
-	border: 1px #151e3d solid;
-  text-align: center;
+button a:hover {
+	background-color: #ba2f4d;
+	color: #fff;
 }
 
-h2 {
-	border: 1px #151e3d solid;
-  background-color: #3b5d80;
-  color: #fafafa;
-  text-align: center;
+button a:active {
+	background-color: #ba2f4d;
+	color: #fff;
 }
 
-.profilepic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+footer {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 2em;
+	text-align: center;
+	background-color: #ba2f4d;
+	color: #fff;
 }
