@@ -1,48 +1,122 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chariya Thach | Portfolio</title>
 
-  <title>Chariya Thach | Portfolio</title>
-  <meta name="description" content="Portfolio Landing Page">
-  <meta name="author" content="Chariya Thach">
+    <!-- custom css link -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <!-- Content goes here -->
-  <header>
-    <h1>Welcome! I'm Chariya, an aspiring web developer based in Seattle.</h1>
-  </header>
-  <nav>
-    <ul>
-      <li><button><a href="about.html" target="_blank">About</a></button></li>
-      <li><button><a href="https://chelan.highline.edu/~chariya/index.html" target="_blank">Projects</a></button></li>
-      <li><button><a href="contact.html" target="_blank">Contact</a></button></li>
-      <li><button><a href="https://www.linkedin.com/in/chariyathach/" target="_blank">LinkedIn</a></button></li>
-      <li><button><a href="https://chariyat.github.io/" target="_blank">GitHub</a></button></li>
-    </ul>
-  </nav>
-  
-  <div class="profilepic">
-    <img src="images/profile_pic.jpg" alt="Profile Picture Illustration" width="250" height="250">
-  </div>
-  <main>
-    <p>
-      My objective is to create user-friendly, efficient, and accessible websites that 
-      are visually appealing and easy to navigate.
-    </p>
-    <p>
-      I'm experienced in HTML5, CSS3, JavaScript, PHP, MySQL.
-    </p>
-    <p>
-      Let's connect!
-    </p>
-  </main>
-  <footer>
-    <p>&copy; Chariya Thach <script>document.write(new Date().getFullYear())</script></p>
-    <p>All Rights Reserved</p>
-  </footer>
-</body>
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- font styling -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- header -->
+    <header>
+      <a href="#" class="logo"><img src="images/hibiscus_green.png"></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="https://chelan.highline.edu/~chariya/" target="blank_">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+
+    <!-- home -->
+    <section class="home" id="home">
+      <div class="home-text">
+        <h4>Welcome!</h4>
+        <h1>I'm Chariya <br> Th<span>ach</span></h1>
+        <h3>Full Stack Developer</h3>
+        <a href="#" class="btn">Hire Me!</a>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/hibiscus_green.png">
+      </div>
+
+      <div class="about-text">
+        <h2>About Me</h2>
+        <h4>Welcome!  I'm Chariya, an aspiring full stack developer based in Seattle.</h4>
+
+        <p>
+          I'm a highly motivated individual with a background in administrative support roles seeking a transition in to a career in web development.
+        </p>
+
+        <p>
+          Proficient in HTML5, CSS3, JavaScript, Python, PHP, and MySQL with experience in creating accessible and responsive websites.  Passionate about learning new technologies and staying up to date on industry trends.
+        </p>
+        
+        <p>
+          Currently seeking and applying to internships and entry level positions.  If you're hiring let's connect!
+        </p>
+
+        <div class="about-gri">
+          <div class="about-in">
+            <h5>1. Problem Solving</h5>
+          </div>
+
+          <div class="about-in">
+            <h5>2. Creative Ideas</h5>
+          </div>
+
+          <div class="about-in">
+            <h5>3. Search A Lot</h5>
+          </div>
+
+          <div class="about-in">
+            <h5>4. High Quality</h5>
+          </div>
+        </div>
+
+        <a href="#" class="btn">Contact Me!</a>
+      </div>
+    </section>
+
+    <!-- services -->
+    <section class="services" id="services">
+      <div class="main-text">
+        <h2>My Services</h2>
+        <h4>Better Design, Better Experiences</h4>
+      </div>
+
+      <div class="services-content">
+        <div class="box">
+          <img src="images/hibiscus_green.png">
+          <h3>Mobile App Design</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus assumenda architecto incidunt corporis deleniti, nihil fuga quis nemo unde repellendus suscipit autem, voluptate laboriosam soluta! Reiciendis suscipit non quae soluta.</p>
+        </div>
+
+        <div class="box">
+          <img src="images/hibiscus_green.png">
+          <h3>Website Design</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus assumenda architecto incidunt corporis deleniti, nihil fuga quis nemo unde repellendus suscipit autem, voluptate laboriosam soluta! Reiciendis suscipit non quae soluta.</p>
+        </div>
+
+        <div class="box">
+          <img src="images/hibiscus_green.png">
+          <h3>Video Editing</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus assumenda architecto incidunt corporis deleniti, nihil fuga quis nemo unde repellendus suscipit autem, voluptate laboriosam soluta! Reiciendis suscipit non quae soluta.</p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- custom js link -->
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>
