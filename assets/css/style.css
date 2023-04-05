@@ -208,7 +208,8 @@ span {
   max-width: 460px;
 }
 
-.services {
+/* services */
+.projects {
   height: auto;
   width: 100%;
   background: url(../images/pastel.png);
@@ -216,8 +217,7 @@ span {
   background-position: center;
 }
 
-/* services */
-.services img {
+.projects img {
   width: 100px;
   height: auto;
   border-radius: 10%;
@@ -238,7 +238,7 @@ span {
   font-weight: 600;
 }
 
-.services-content {
+.projects-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, auto));
   align-items: center;
@@ -275,7 +275,7 @@ span {
 
 }
 
-/* portfolioi */
+/* portfolio */
 .portfolio-content img {
   width: 50px;
   height: auto;
