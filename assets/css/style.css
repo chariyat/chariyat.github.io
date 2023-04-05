@@ -1,13 +1,5 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Quicksand', sans-serif;
-  list-style: none;
-  text-decoration: none;
-  scroll-behavior: smooth;  
-}
-
+/* selects the root element of the document:
+    <html> in the case of HTML */
 :root {
   --bg-color: #fafafa;
   --text-color: #5bae9f;
@@ -21,11 +13,27 @@
   --p-font: 1.1rem;
 }
 
+/* universal, body & section */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;  
+}
+
 body {
   background: var(--bg-color);
   color: var(--text-color);
 }
 
+section {
+  padding: 160px 15% 90px;
+}
+
+/* header */
 header {
   position: fixed;
   right: 0;
@@ -79,10 +87,14 @@ header {
   color: var(--other-colorr);
 }
 
-section {
-  padding: 160px 15% 90px;
+header.sticky {
+  padding: 3rem 15%;
+  background: var(--other-color);
+  border-bottom: 1px solid;
+  transition: .7s;
 }
 
+/* home page */
 .home {
   height: 100vh;
   width: 100%;
@@ -92,14 +104,14 @@ section {
   background-position: center;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .home-text h1 {
   color: var(--main-color);
   font-size: 24px;
   font-weight: 600;
-  margin-top: 5rem;
+  margin-top: 10rem;
 }
 
 .home-text h2 {
@@ -143,13 +155,7 @@ span {
   border: 2px solid var(--text-color);
 }
 
-header.sticky {
-  padding: 3rem 15%;
-  background: var(--other-color);
-  border-bottom: 1px solid;
-  transition: .7s;
-}
-
+/* about me */
 .about {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -221,6 +227,7 @@ header.sticky {
   background-position: center;
 }*/
 
+/* services */
 .services img {
   width: 100px;
   height: auto;
@@ -278,12 +285,14 @@ header.sticky {
 
 }
 
+/* portfolioi */
 .portfolio-content img {
   width: 50px;
   height: auto;
   border-radius: 10%;
 }
 
+/* responsive design */
 @media (max-width: 1500px) {
   header {
     padding: 18px 3%;
@@ -318,4 +327,16 @@ header.sticky {
   .navbar.open {
     top: 100%;
   }
+  .home-text {
+    margin-bottom: 5rem;
+  }
+  .about {
+    display:block;
+  }
+  .about img {
+    width: 100px;
+    height: auto;
+    border-radius: 25%;
+  }
+
 }
