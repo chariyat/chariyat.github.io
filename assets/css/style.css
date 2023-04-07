@@ -213,11 +213,21 @@ span {
 }
 
 .projects-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-  align-items: center;
-  text-align: center;
-  gap: 2rem;
+  display: flex;
+  background: transparent;
+  gap: 3rem;
+}
+
+.projects-content > div {
+  padding: 45px;
+  background: var(--bg-color);
+  border-top: 5px solid transparent;
+  transition: all 1s ease;
+  cursor: pointer;
+}
+
+.projects-content p {
+  color: var(--text-color);
 }
 
 .projects-content h2 {
@@ -226,28 +236,11 @@ span {
   font-weight: 600;
 }
 
-.projects-content p {
-  color: var(--text-color);
-}
-
-.box {
-  background: var(--bg2-color);
-  border-top: 5px solid transparent;
-  transition: all 1s ease;
-  cursor: pointer;
-}
-
-.box h3 {
+.projects-content h3 {
   font-size: 24px;
   font-weight: 600;
   color: var(--accent1-color);
   transition: all 1s ease;
-}
-
-.box p {
-  color: var(--text2-color);
-  font-size: var(--p-font);
-  line-height: 30px;
 }
 
 .box:hover {
