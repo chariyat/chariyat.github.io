@@ -247,8 +247,8 @@ header nav {
   display: block;
   align-items: center;
   padding-top: 12rem;
-  padding-left: 20rem;
-  padding-right: 20rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
   background: var(--bg-color);
 }
 
@@ -275,7 +275,7 @@ header nav {
   padding: 1rem;
   background: var(--bg-color2);
   border-top: 5px solid transparent;
-  transition: all 1s ease;
+  transition: all .4s ease;
   cursor: pointer;
 }
 
@@ -284,7 +284,6 @@ header nav {
   font-weight: 600;
   margin: 15px 0;
   color: var(--main-color);
-  transition: all .7s ease;
 }
 
 .box p {
