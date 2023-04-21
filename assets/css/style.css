@@ -120,13 +120,13 @@ header nav {
 }
   
 .home-text h1 {
-  font-family: var(--font);
-  font-size: 9rem;
+  font-family: var(--cursive-font);
+  font-size: 5.5rem;
 }
 
 .home-text h2 {
-  font-family: var(--cursive-font);
-  font-size: 5.5rem;
+  font-family: var(--font);
+  font-size: 9rem;
 }
 
 .home-text p {
@@ -148,6 +148,7 @@ header nav {
   background: var(--bg-color2);
   color: var(--text-color);
   border-bottom: 2px solid var(--text-color);
+  overflow: auto;
 }
       
 .about-img img {
@@ -161,13 +162,13 @@ header nav {
 }
   
 .about-text h1 {
-  font-family: var(--cursive-font);
-  font-size: 9rem;
+  font-family: var(--main-font);
+  font-size: 5.5rem;
 }
 
 .about-text h2 {
-  font-family: var(--main-font);
-  font-size: 5.5rem;
+  font-family: var(--cursive-font);
+  font-size: 9rem;
 }
 
 .about-text p {
