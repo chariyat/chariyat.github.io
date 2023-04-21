@@ -173,6 +173,7 @@ header nav {
 .about-text p {
   font-family: var(--main-font);
   font-size: 2rem;
+  margin-top: 1.25rem;
 }
 
 /***** education page *****/
