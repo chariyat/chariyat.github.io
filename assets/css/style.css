@@ -73,21 +73,24 @@ header nav {
 }
 
 .navbar li {
-  border: .25rem solid var(--text-color);
+  border: .15rem solid var(--text-color);
   border-radius: 1rem;
+  background: var(--btn-bg);
   margin: 1rem;
+  padding: 1rem;
+  transition: all .4s ease;
 }
       
+.navbar li:hover {
+  transform: scale(1.01) translateY(-5px);
+  border-top: 1rem solid var(--main-color);
+}
+
 .navbar a {
   display: block;
-  background: var(--btn-bg);
-  color: var(--btn-bg2);
   text-align: center;
   text-decoration: none;
-  border-radius: .5rem;
-  padding: 10px 25px;
-  margin: 0 2px;
-  transition: all .7s ease;
+  color: var(--btn-text);
 }
 
 /***** home page *****/
@@ -223,7 +226,6 @@ header nav {
 .education-text:hover {
   transform: scale(1.01) translateY(-5px);
   border-top: 1rem solid var(--main-color);
-
 }
 
 .education-text h2 {
@@ -275,7 +277,7 @@ header nav {
   gap: 1.5rem;
 }
 
-.box {
+.projects-content a {
   flex: 1;
   padding: 1.5rem;
   margin: 1.5rem;
@@ -286,6 +288,11 @@ header nav {
   color: var(--text-color);
   border-radius: 2rem;
   border: 2px solid var(--text-color);
+}
+
+.projects-content a:hover {
+  transform: scale(1.01) translateY(-5px);
+  border-top: 1rem solid var(--main-color);
 }
 
 .box img {
@@ -308,12 +315,6 @@ header nav {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.box:hover {
-  transform: scale(1.01) translateY(-5px);
-  border-top: 1rem solid var(--main-color);
-
 }
 
 /***** contact page *****/
