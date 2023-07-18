@@ -459,6 +459,14 @@ ul a {
   #hamburger-icon {
     display: block;
   }
+
+  .home-img img {
+    width: 55%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid var(--text-color);
+    float: right;
+  }
   
   .home-text h1 {
     font-family: var(--cursive-font);
