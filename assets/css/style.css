@@ -485,6 +485,24 @@ ul a {
 }
 
 /****** Responsive Design ******/
+@media only screen and (max-width: 1050px) {
+  .home-text h1 {
+    font-family: var(--cursive-font);
+    font-size: 2.5rem;
+  }
+
+  .home-text h2 {
+    font-family: var(--font);
+    font-size: 3.5rem;
+  }
+
+  .home-text p {
+    font-family: var(--main-color);
+    font-size: 2rem;
+  }
+}
+
+/****** Responsive Design ******/
 @media only screen and (max-width: 666px) {
   .home-img img {
     display: none;
