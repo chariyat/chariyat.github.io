@@ -459,4 +459,20 @@ ul a {
   #hamburger-icon {
     display: block;
   }
+  
+  .home-text h1 {
+  font-family: var(--cursive-font);
+  font-size: 53.5rem;
+  }
+
+  .home-text h2 {
+  font-family: var(--font);
+  font-size: 5.5rem;
+  }
+
+  .home-text p {
+    font-family: var(--main-color);
+    font-size: 2rem;
+  }
+
 }
